@@ -1,0 +1,70 @@
+# depslib dependency file v1.0
+1522881894 source:d:\documents\ufrr\estrutura de dados ii\busca_em_largura\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	"bfs.cpp"
+	"arvore_bin.cpp"
+	"imprimir_iterativo.cpp"
+	"imprimir_recursivo.cpp"
+	<queue>
+	<stack>
+
+1522881986 d:\documents\ufrr\estrutura de dados ii\busca_em_largura\bfs.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	"arvore_bin.h"
+	"bfs.h"
+	<queue>
+
+1522763653 d:\documents\ufrr\estrutura de dados ii\busca_em_largura\arvore.h
+
+1522763758 d:\documents\ufrr\estrutura de dados ii\busca_em_largura\bfs.h
+
+1522765452 d:\documents\ufrr\estrutura de dados ii\busca_em_largura\arvore.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	"arvore.h"
+	<math.h>
+	<stack>
+
+1522767878 d:\documents\ufrr\estrutura de dados ii\busca_em_largura\percurso_iterativo.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	"arvore.h"
+	"percurso_iterativo.h"
+	<stack>
+
+1522767577 d:\documents\ufrr\estrutura de dados ii\busca_em_largura\percurso_iterativo.h
+
+1522881757 d:\documents\ufrr\estrutura de dados ii\busca_em_largura\arvore_bin.h
+
+1522881820 d:\documents\ufrr\estrutura de dados ii\busca_em_largura\arvore_bin.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	"arvore_bin.h"
+	<math.h>
+	<stack>
+
+1522881411 d:\documents\ufrr\estrutura de dados ii\busca_em_largura\imprimir_iterativo.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	"arvore_bin.h"
+	"imprimir_iterativo.h"
+	<stack>
+
+1522856104 d:\documents\ufrr\estrutura de dados ii\busca_em_largura\imprimir_iterativo.h
+
+1522881866 d:\documents\ufrr\estrutura de dados ii\busca_em_largura\imprimir_recursivo.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	"imprimir_recursivo.h"
+
+1522881749 d:\documents\ufrr\estrutura de dados ii\busca_em_largura\imprimir_recursivo.h
+
