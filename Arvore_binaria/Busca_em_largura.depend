@@ -68,3 +68,62 @@
 
 1522881749 d:\documents\ufrr\estrutura de dados ii\busca_em_largura\imprimir_recursivo.h
 
+1522897209 source:d:\documents\github\estruturadedados2_arvorebin_2018_ewelly\arvore_binaria\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	"bfs.cpp"
+	"arvore_bin.cpp"
+	"funcoes.cpp"
+	"imprimir_iterativo.cpp"
+	"imprimir_recursivo.cpp"
+	<queue>
+	<stack>
+
+1522882239 d:\documents\github\estruturadedados2_arvorebin_2018_ewelly\arvore_binaria\bfs.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	"arvore_bin.h"
+	"bfs.h"
+	<queue>
+
+1522882415 d:\documents\github\estruturadedados2_arvorebin_2018_ewelly\arvore_binaria\arvore_bin.h
+
+1522763758 d:\documents\github\estruturadedados2_arvorebin_2018_ewelly\arvore_binaria\bfs.h
+
+1522882440 d:\documents\github\estruturadedados2_arvorebin_2018_ewelly\arvore_binaria\arvore_bin.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	"arvore_bin.h"
+	<math.h>
+	<stack>
+
+1522897897 d:\documents\github\estruturadedados2_arvorebin_2018_ewelly\arvore_binaria\funcoes.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	"funcoes.h"
+	<stack>
+
+1522897213 d:\documents\github\estruturadedados2_arvorebin_2018_ewelly\arvore_binaria\funcoes.h
+
+1522940528 d:\documents\github\estruturadedados2_arvorebin_2018_ewelly\arvore_binaria\imprimir_iterativo.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	"arvore_bin.h"
+	"imprimir_iterativo.h"
+	<stack>
+
+1522940434 d:\documents\github\estruturadedados2_arvorebin_2018_ewelly\arvore_binaria\imprimir_iterativo.h
+
+1522881866 d:\documents\github\estruturadedados2_arvorebin_2018_ewelly\arvore_binaria\imprimir_recursivo.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	"imprimir_recursivo.h"
+
+1522881749 d:\documents\github\estruturadedados2_arvorebin_2018_ewelly\arvore_binaria\imprimir_recursivo.h
+

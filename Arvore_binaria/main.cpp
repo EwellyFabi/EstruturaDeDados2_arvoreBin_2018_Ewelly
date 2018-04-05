@@ -24,11 +24,18 @@ int main(){
                             )
                         )
                     );
+
 //formas de imprimir recursivamente
     imprime_escolhendo_ordem(arv, 1);
     imprime_escolhendo_ordem(arv, 2);
     imprime_escolhendo_ordem(arv, 3);
     imprime_arv_formatando(arv);
+
+//Cria arvore espelho
+    Arv_bin *arv_espelho = cria_arv_binaria(cria_no_arv(' ', NULL, NULL));
+    arv_espelho(arv, arv_espelho);
+    printf("Arvore espelho:\n");
+    imprime_arv_formatando(arv_espelho);
 
     if(!(arv_pertence(arv, 'm')))
         printf("Nao pertece a arvore\n");

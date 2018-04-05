@@ -16,4 +16,7 @@ int arv_bin_estritamente_no(Nodo* raiz);
 int arv_numero_folhas(Arv_bin* arv);
 int arv_numero_folhas_no(Nodo* raiz);
 
+void arv_espelho(Arv_bin* arv_original, Arv_bin* arv_copia);
+void arv_espelho_no(Nodo* original, Nodo* copia);
+
 #endif // FUNCOES_H_INCLUDED

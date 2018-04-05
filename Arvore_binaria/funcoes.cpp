@@ -86,3 +86,23 @@ int arv_numero_folhas_no(Nodo* raiz){
 
     return num_total;
 }
+
+void arv_espelho(Arv_bin* arv_original, Arv_bin* arv_copia){
+    arv_espelho_no(arv_original->raiz, arv_copia->raiz);
+}
+
+void arv_espelho_no(Nodo* original, Nodo* copia){
+//copia a informacao do nodo da arvore original no nodo da arvore espelho
+    copia->info = original->info;
+
+    if (original->dir != NULL) {
+        Nodo *novo = cria_no_arv(' ' , NULL , NULL); //cria um no folha
+        copia->esq = novo; //o novo no eh apontado como sub-arvore a esquerda do no copia
+        arv_espelho_no(original->dir , copia->esq);
+    }
+    if (original->esq != NULL) {
+        Nodo *novo = cria_no_arv(' ' , NULL , NULL); //cria um no folha
+        copia->dir = novo; //o novo no eh apontado como sub-arvore a direita do no copia
+        arv_espelho_no(original->esq , copia->dir);
+    }
+}
